@@ -1,7 +1,7 @@
 import os
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8589242222:AAF8rkxRfHyS-jcNBBtLh2wpWi_3_eKidpg")
 
 async def start(update, context):
     await update.message.reply_text("AI Bot অনলাইন ✅")
